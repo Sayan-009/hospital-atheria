@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navOption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.navOption a{
+    text-decoration: none;
+    color: rgb(159, 23, 79);
+    font-size: 18px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 15px;
+}
+.navOption a:hover{
+    background-color: rgb(159, 23, 79);
+    color: white;
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 27px;
+}
+.login a{
+    padding: 5px;
+    padding-right: 17px;
+    padding-left: 17px;
+    text-decoration: none;
+}
+.login #log{
+    border: 2px solid rgb(159, 23, 79);
+    text-align: center;
+    color: rgb(159, 23, 79);
+}
+.login #sign{
+    background-color: rgb(159, 23, 79);
+    color: white;
+}
+.login #sign:hover{
+   background-color: rgb(201, 32, 102);
+}
+.logo img{
+    width: 300px;
+}
+.head{
+    background-image: url('heading photo.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+}
+.heading{
+    padding: 130px;
+    font-size: 30px;
+}
+.heading p{
+    padding-left: 60px;
+}
+.heading span{
+    color: rgb(159, 23, 79);
+}
+.welcome{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.welcome p{
+    text-align-last: center;
+    padding: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: rgb(159, 23, 79);
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.mission{
+  width: 70%;
+  height: 300px;
+  font-size: 23px;
+  padding: 20px;
+}
+.headCenter{
+    text-align: center;
+    color: rgb(159, 23, 79);
+    font-weight: bold;
+}
+.image{
+    width: 30%; 
+    height: 300px; 
+    overflow: hidden; 
+  }
+.image, #one{
+    padding-right: 30px;
+  }
+.image, #two{
+    padding-left: 30px;
+}
+.image, #three{
+    padding-right: 30px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 23px;
+}
+.secondRow{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+}
+.medicalTeam{
+    width: 70%;
+    height: 300px;
+    font-size: 23px;
+    padding: 20px;
+}
+.thirdRow{
+    display: flex;
+    flex-direction: row;
+}
+.technology{
+    width: 70%;
+    height: 300px;
+    font-size: 23px;
+    padding: 20px;
+}
+.specialist h3{
+    padding: 25px;
+    font-size: 25px;
+}
+.department{
+    display: flex;
+}
+.department p{
+    color: rgb(159, 23, 79);
+}
+.imageIcon{
+    width: 20%;
+    height: 220px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(159, 23, 79);
+    border-radius: 10px;
+    text-align: center;
+}
+.imageIcon:hover{
+    border-color: rgb(62, 32, 45);
+}
+.imageIcon img{
+    width: 80%;
+    height: 80%;
+}
+.certification{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(159, 23, 79);
+    padding: 15px;
+    margin-top: 50px;
+}
+.award{
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+}
+.award img{
+    width: 100%;
+    height: 100%;
+}
+.certificate{
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+}
+.certificate img{
+    width: 100%;
+    height: 100%;
+}
+.certification .content{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.priority{
+    display: flex;
+}
+.health{
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.health img, .contact img{
+    height: 100%;
+    width: 100%;
+}
+.healthContent, .contactContent{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contactContent{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.contactContent span, .healthContent span{
+    color: rgb(159, 23, 79);
+}
+.healthContent span{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+.endSection{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(159, 23, 79);
+    
+}
+.endSection .column{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 20px;
+}
+.column a{
+    text-decoration: none;
+    color: white;
+}
+.hospitalImage{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.hospitalImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
